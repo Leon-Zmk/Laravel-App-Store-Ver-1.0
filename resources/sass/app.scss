@@ -1,0 +1,55 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+$primary:#414345;
+$secondary:#F2F2F2;
+$border-radius:2rem;
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+
+.listItem{
+    transition: 1.5s;
+}
+
+.h350{
+    height: 350px;
+    object-fit: cover;
+}
+
+.obj-fit{
+    object-fit: contain;
+}
+
+.gallery{
+    width:150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.scroll{
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: gray;
+    margin-top: 10px;
+    border-radius: 2rem;
+  }
+
+.listItem:hover{
+    background-color: #000102  !important;
+}
+
+.disable-select{
+    user-select: none;
+}
