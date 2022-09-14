@@ -13,7 +13,7 @@
         <div class="col-12">
            <div class="">
                <div class="row ">
-                    @include("dashboard.sidebar")
+                    @include("Dashboard.sidebar")
                    <div class="col-12 col-md-9 rounded bg-gradient mt-3 overflow-scroll">
                        <div class="p-2 pt-5">
                             <table class="table table-dark overflow-scroll">

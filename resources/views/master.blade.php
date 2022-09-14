@@ -65,8 +65,9 @@
    @yield('content')
 
    <div class="p-5  mt-5" style="background-color: grey">
-      <div class=" h4 text-center text-danger">
-          HeartOfPandora@Gaming Community
+      <div class=" h5 text-center text-white">
+          HeartOfPandora@Gaming &hearts; coder (Zaw Min Khant)
+
       </div>
   </div>
 

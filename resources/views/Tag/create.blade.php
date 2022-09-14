@@ -13,7 +13,7 @@
         <div class="col-12">
            <div class="">
                <div class="row ">
-                    @include("dashboard.sidebar")
+                    @include("Dashboard.sidebar")
                    <div class="col-12 col-md-9 rounded bg-gradient mt-3">
                         <div class="p-4">
                            <div class="d-flex flex-column text-center  justify-content-md-between align-items-md-center">

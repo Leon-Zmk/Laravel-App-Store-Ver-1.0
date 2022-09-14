@@ -21,6 +21,7 @@ use ILluminate\Support\Facades\Auth;
 |
 */
 
+
 Route::get('/',[PageController::class,"index"])->name("page.index");
 Route::get("/detail/{slug}",[PageController::class,"show"])->name("page.detail");
 
@@ -40,5 +41,5 @@ Route::middleware("auth")->group(function(){
 
 
 
-Auth::routes();
+Auth::routes(['register' => false]);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -14,7 +14,7 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-6">
                         <div class="">
-                            <a class="venobox" href="{{asset("storage/covers/$post->cover_photo")}}"><img src="{{asset("storage/covers/$post->cover_photo")}}" class="h350 w-100 rounded" alt="image alt"/></a>
+                            <a class="venobox" href="{{asset("storage/covers/$post->cover_photo")}}"><img src="{{asset("storage/covers/$post->cover_photo")}}" style="width:500px;height:500px;" class="h350 w-100 rounded" alt="image alt"/></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -27,7 +27,7 @@
                             <p>Language:      <span class="text-danger">English</span> </p>
                             <p>Release Date:  <span class="text-danger">{{$post->MediaLibrary->created_at}}</span> </p>
                             <p>Update Date:   <span class="text-danger">{{$post->MediaLibrary->updated_at}}</span> </p>
-                            <p>Support Developer:    <span class="text-danger"><a class="text-danger" href="{{$post->MediaLibrary->support_dev}}">Patreon</a></span> </p>
+                            <p>Developer:    <span class="text-danger">{{$post->MediaLibrary->support_dev}}</span> </p>
                             <p>Tags:         <span class="text-danger">
                     
                                 @foreach ($post->tags as $tag)
@@ -41,7 +41,7 @@
                     <div class="col-12 p-md-5">
                         <h3 class="text-center text-danger">Overview</h3>
                         <div class="text-center">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repellat dolore at, modi alias cum dolor et dignissimos, obcaecati deleniti aliquid quae in libero exercitationem dolores. Consequatur eveniet omnis consectetur!Loremlorem  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio tempore similique quaerat doloremque cumque magnam molestias rem vitae voluptas doloribus quo dolorem ullam deleniti sed, error obcaecati omnis ab cum.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo eveniet, molestiae expedita nam est, nemo nihil nobis cum repellendus debitis illum quasi doloremque eligendi maiores. Totam accusantium deleniti nemo?</p>
+                            <p>{{$post->description}}</p>
                         </div>
                     </div>
                     <div class="col-12">
