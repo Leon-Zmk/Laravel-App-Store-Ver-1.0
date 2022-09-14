@@ -4,4 +4,4 @@ Laravel
 	
 2.Or You can Upload file from other server.
 
-3.Just A Simple App Store.
+3.Or You Can Use Other Storage Like Mega or Paid Storage Like SS3 Amazon.
